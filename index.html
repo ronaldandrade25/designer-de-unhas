@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>Nails By Emily</title>
+</head>
+
+<body>
+
+    <div class="bg-home">
+        <header>
+
+            <nav class="header-content container">
+                <div class="header-icons" data-aos="fade-down">
+                    <a href="#">
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook fa-2x"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-tiktok fa-2x"></i>
+                    </a>
+                </div>
+
+                <div class="header-logo" data-aos="fade-up" data-aos-delay="300">
+                    <img data-aos="flip-up" data-aos-delay="300" data-aos-duration="1500" src="./assets/logo (3).png"
+                        alt="logo Barbearia">
+                </div>
+
+                <div data-aos="fade-down">
+                    <a href="#serviços" class="header-button">
+                        Serviços
+                    </a>
+
+
+                </div>
+            </nav>
+
+            <main class="hero container" data-aos="fade-up" data-aos-delay="400">
+                <h1>💅 Beleza, estilo e arte para suas unhas, com cuidado e qualidade em cada detalhe.</h1>
+                <p> horário de funcionamento: 09:00 ás 19:00</p>
+
+
+                <button class="button-contact" id="openModalBtn">
+                    Agendar horário
+                </button>
+            </main>
+
+        </header>
+    </div>
+
+    <section class="about">
+        <div class="container about-content">
+            <div data-aos="zoom-in" data-aos-delay="100">
+                <img src="./assets/img-sobre.jpeg" alt="imagem sobre a Barbearia">
+            </div>
+
+            <div data-aos="zoom-out-left" data-aos-delay="250" class="about-description">
+                <h2>Sobre</h2>
+                <p>No nosso estúdio, cada detalhe é pensado para que suas unhas transmitam beleza, estilo e personalidade. Trabalhamos com
+                técnicas modernas, produtos de alta qualidade e muito cuidado em cada atendimento.
+                Aqui, você encontra um ambiente aconchegante, atendimento personalizado e um toque artístico em cada criação — porque
+                suas mãos merecem mais do que um simples cuidado, merecem uma obra de arte. 💅 </p>
+
+             
+            </div>
+
+        </div>
+    </section>
+
+    <section class="services" id="serviços">
+        <div class="services-content container">
+            <h2>Serviços</h2>
+            <p>Na [Nome do studio], oferecemos serviços completos para cuidar do seu estilo com qualidade e
+                profissionalismo:</p>
+        </div>
+
+        <section class="haircuts">
+
+            <div class="haircut" data-aos="fade-up" data-aos-delay="150">
+                <img src="./assets/serviço1.jpeg" alt="Unha Rosa">
+                <div class="haircut-info">
+                    <strong>Unha em Gel</strong>
+                    <a href="#">
+                        R$ 20,00
+                    </a>
+                </div>
+            </div>
+
+            <div class="haircut" data-aos="fade-up" data-aos-delay="250">
+                <img src="./assets/serviço1.jpeg" alt=" Unha simples">
+                <div class="haircut-info">
+                    <strong>Designer </strong>
+                    <a href="#">
+                        R$ 40,00
+                    </a>
+                </div>
+            </div>
+
+            <div class="haircut" data-aos="fade-up" data-aos-delay="400">
+                <img src="./assets/serviço3.jpeg" alt="Unha branca">
+                <div class="haircut-info">
+                    <strong>Unha </strong>
+                    <a href="#">
+                        R$ 30,00
+                    </a>
+                </div>
+            </div>
+
+            <div class="haircut" data-aos="fade-up" data-aos-delay="400">
+                <img src="./assets/serviço3.jpeg" alt="Unha branca">
+                <div class="haircut-info">
+                    <strong>Unha </strong>
+                    <a href="#">
+                        R$ 30,00
+                    </a>
+                </div>
+            </div>
+
+            <div class="haircut" data-aos="fade-up" data-aos-delay="400">
+                <img src="./assets/serviço1.jpeg" alt="Unha branca">
+                <div class="haircut-info">
+                    <strong>Unha </strong>
+                    <a href="#">
+                        R$ 30,00
+                    </a>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+<section class="testimonials" id="testimonials">
+    <div class="container">
+        <h2 class="section-title">O Que Nossas Clientes Dizem</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"Simplesmente incrível! A equipe é super atenciosa e o resultado das minhas
+                    unhas ficou perfeita. Recomendo de olhos fechados!"</p>
+                <p class="testimonial-author">- Maria Silva</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"Ambiente acolhedor e profissionais extremamente capacitados. Sempre
+                    saio de lá me sentindo renovada e linda!"</p>
+                <p class="testimonial-author">- Ana Santos</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"O melhor salão da região! Preços justos e qualidade excepcional. Sou
+                    cliente fiel há mais de 3 anos."</p>
+                <p class="testimonial-author">- Juliana Costa</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+    <div class="services">
+        <h2>Venha nos Conhecer</h2>
+
+    </div>
+
+    <iframe width="100%"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.5469860211556!2d-34.915291026190054!3d-8.045550580353531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1902b55d4a1b%3A0x62f009f8fa918156!2sConjunto%20habitacional%20da%20Torre!5e0!3m2!1spt-BR!2sbr!4v1751511167281!5m2!1spt-BR!2sbr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer class="footer">
+        <div class="footer-icons">
+
+            <a href="#">
+                <i class="fa-brands fa-instagram fa-2x"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-facebook fa-2x"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-tiktok fa-2x"></i>
+            </a>
+
+        </div>
+
+        <div>
+            <img src="./assets/logo (3).png" alt="logo barbearia" class="header-logo">
+        </div>
+
+        <p>Copyright | <data>Nails By Emily - Todos Direitos Reservados. </data></p>
+    </footer>
+
+
+    <a href="https://wa.me/5581996221060?text=Olá! Gostaria de agendar um horário." class="btn-whatsapp" target="_blank"
+        id="openModalBtn" data-aos="zoom-in-uo" data-aos-delay="400">
+        <img src="./assets/whatssapp.svg" alt="botão whatssapp">
+        <span class="tooltip-text">Tire suas Dúvidas</span>
+    
+    </a>
+
+    <!-- Modal de Agendamento -->
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Escolha seu horário</h2>
+
+            <label for="data">Data:</label>
+            <input type="date" id="data" required>
+
+            <label for="hora">Hora:</label>
+            <select id="hora">
+                <option value="">Selecione um horário</option>
+                <option>09:00</option>
+                <option>10:00</option>
+                <option>11:00</option>
+                <option>13:00</option>
+                <option>14:00</option>
+                <option>15:00</option>
+                <option>16:00</option>
+                <option>17:00</option>
+                <option>18:00</option>
+                <option>19:00</option>
+            </select>
+
+            <button id="confirmarBtn">Agendar via WhatsApp</button>
+        </div>
+    </div>
+
+
+
+
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>
